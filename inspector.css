@@ -43,10 +43,33 @@ main {
 
 .container {
     max-width: 80vw;
-    margin: auto;
+    margin-left: 120px;
     padding: 9px 15px;
+
 }
 
+.container h1 {
+    padding: 12px;
+}
+
+input {
+    min-width: 23vw;
+    border-radius: 12px;
+    padding: 3px 12px;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#resultCont div::first-letter {
+    text-transform: uppercase;
+}
 
 footer {
     font-size: 12px;
@@ -60,9 +83,6 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: rgb(152, 221, 169)
-    }
 
     .container {
         font-size: 12px;
